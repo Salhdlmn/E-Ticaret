@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Semi+Condensed:wght@200;300;400;500&family=DynaPuff&family=Gugi&family=Indie+Flower&family=Inter:wght@300;400;500;600&family=Kumbh+Sans:wght@200;300;400;500;600&family=Lato:wght@100&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700&family=Prompt&family=Roboto:wght@400;500&family=Sofia&display=swap");
+* {
+  font-family: "Poppins";
+}
+
+.navbar {
+  background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+}
+.navbar-brand {
+  font-family: "Kumbh Sans";
+}
+.navbar-nav a {
+  color: white;
+}
+
+.carousel img {
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 450px;
+}
+.carousel-caption {
+  z-index: 2;
+  top: 350px;
+  position: absolute;
+  border-radius: 20px;
+  background-color: white;
+}
+.carousel-caption h5,
+.carousel-caption p {
+  background-color: white;
+  color: black;
+}
+.carousel-item::before {
+  content: "";
+  border-radius: 50%;
+  position: absolute;
+  background-color: black;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+}
+
+.rate-col img {
+  color: white;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  transition: all 0.8s;
+  box-shadow: 2px 2px 15px gray;
+}
+
+footer .nav-link {
+  color: white;
+}/*# sourceMappingURL=style.css.map */
